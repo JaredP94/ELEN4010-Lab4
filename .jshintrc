@@ -4,8 +4,10 @@
 	"undef": true,
 	"mocha": true,
 	"devel": true,
+	"browser": true,
+	"jquery": true,
+	"asi" : true,
 	"globals": {
-		"jQuery": false,
-		"$": false
+		"jQuery": true
 	}
 }
