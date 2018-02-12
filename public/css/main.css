@@ -1,0 +1,12 @@
+body {
+	background-color: powderblue;
+}
+
+#addTodoButton {
+	color: blue;
+}
+
+.todo-item {
+	color: red !important;
+	border: 5px solid black;
+}
