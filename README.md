@@ -2,7 +2,7 @@
 
 # ELEN4010-lab4 - Software Development III 
 
-Lab involving the creation and hosting of a NodeJS project.
+Lab involving the creation and deployment of a NodeJS project.
 ## Involves exposure to the following components:
 
 * Node.js
