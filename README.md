@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/JaredP94/lab4-deploy.svg?token=pPpnWVnP2qW3yj3rTF82&branch=master)](https://travis-ci.com/JaredP94/lab4-deploy)
+[![Build Status](https://travis-ci.com/JaredP94/ELEN4010-Lab4.svg?branch=master)](https://travis-ci.com/JaredP94/ELEN4010-Lab4)
 
 # ELEN4010-lab4 - Software Development III 
 
