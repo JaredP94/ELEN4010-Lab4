@@ -14,6 +14,20 @@ Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsite
 * Within **package.json**, add `"test": "mocha"` under the **scripts** property
 * Run your tests with `npm test`
 
+### Part 2: Using Travis CI to setup a Continuous Integration Pipeline
+* Login to [Travis CI](https://travis-ci.org/) (create an account if needed)
+* Add your targeted repository
+* Create a **.travis.yml** file in the root of your repository
+* Enter the following:
+
+  `language: node_js`
+
+  `node_js:`
+
+  `  - "6"`
+  
+* This will trigger a build on Travis - wait for the build to complete and ensure your tests have passed
+
 ### Part 3: Creating Web App Service through Azure Portal
 * Login to the [Azure web services portal](https://portal.azure.com/) (you can sign up for a free trial if needed)
 * Navigate to **App Services**
