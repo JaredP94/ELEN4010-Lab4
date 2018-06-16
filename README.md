@@ -14,7 +14,7 @@ Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsite
 * Within **package.json**, add `"test": "mocha"` under the **scripts** property
 * Run your tests with `npm test`
 
-### Part 2: Creating Web App Service through Azure Portal
+### Part 3: Creating Web App Service through Azure Portal
 * Login to the [Azure web services portal](https://portal.azure.com/) (you can sign up for a free trial if needed)
 * Navigate to **App Services**
 * Select **Add**
