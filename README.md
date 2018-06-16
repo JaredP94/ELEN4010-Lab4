@@ -51,7 +51,7 @@ Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsite
 * Provide a **Username** and **Password**
 * Select **Save**
 * On the Travis CI page for the tracked repository, Select **More options** -> **Settings**
-* Create the following environment variables:
+* Create the following environment variables (this protects your deployment credentials - though you'll be depending of the security offered by Travis CI):
   * **AZURE_WA_SITE**: `<App service name>`
   * **AZURE_WA_USERNAME**: `<App service username>`
   * **AZURE_WA_PASSWORD**: `<App service password>`
@@ -66,3 +66,5 @@ Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsite
   * **Preparing deploy**
   * **Deploying application**
 * Access the app service by navigating to `https://<YOUR APP SERVICE NAME>.azurewebsites.net`
+
+### Congrats - You've sucessfully configured a CD pipeline for a Nodejs application using Travis CI and Azure Web Services
