@@ -8,20 +8,20 @@ Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsite
 
 ### Part 1: Creating Test Pipeline
 * Run `npm install --save-dev mocha chai` to install the *Mocha* testing framework and *Chai* assertion library
-* Create a *test* folder
+* Create a **test** folder
 * Create a test file (e.g todoList.js)
 * Write some tests in the file that are expected to pass
-* Within *package.json*, add `"test": "mocha"` under the *scripts* property
+* Within **package.json**, add `"test": "mocha"` under the **scripts** property
 * Run your tests with `npm test`
 
 ### Part 2: Creating Web App Service through Azure Portal
 * Login to the [Azure web services portal](https://portal.azure.com/) (you can sign up for a free trial if needed)
-* Navigate to *App Services*
-* Select *Add*
-* Select *Web App*
-* Select *Create*
+* Navigate to **App Services**
+* Select **Add**
+* Select **Web App**
+* Select **Create**
 * Provide a name for the app service
 * Select/Create the resource group for the app service
-* Change *OS* to *Linux*
-* Chance the *Runtime Stack* to *Node.js 9.4*
-* Select *Create*
+* Change **OS** to **Linux**
+* Chance the **Runtime Stack** to **Node.js 9.4**
+* Select **Create**
