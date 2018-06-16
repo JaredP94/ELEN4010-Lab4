@@ -1,25 +1,15 @@
+# ELEN4010-lab4 - Software Development III 
+### Walkthrough for creating a Continuous Deployment (CD) pipeline for a Nodejs app service through Azure Web Services
 [![Build Status](https://travis-ci.com/JaredP94/ELEN4010-Lab4.svg?branch=master)](https://travis-ci.com/JaredP94/ELEN4010-Lab4)
 
-# ELEN4010-lab4 - Software Development III 
+Site can be accessed at [lab4app.azurewebsites.net](https://lab4app.azurewebsites.net/todo)
 
-Lab involving the creation and deployment of a NodeJS project through Azure web services.
-## Involves exposure to the following components:
+## Setup Process
 
-* Node.js
-* Javascript
-* HTML
-* CSS
-* JSON
-* Express
-* Routing
-* Modules
-* RESTful Interface
-* jQuery
-* Seving static files
-* AJAX
-* Bootstrap
-* Mocha (Testing)
-* Chai (Testing)
-* JSHint (Linting)
-* Travis CI
-* Azure (Deployment)
+### Part 1: Creating Test Pipeline
+* Run `npm install --save-dev mocha chai` to install the *Mocha* testing framework and *Chai* assertion library
+* Create a *test* folder
+* Create a test file (e.g todoList.js)
+* Write some tests in the file that are expected to pass
+* Within *package.json*, add `"test": "mocha"` under the *scripts* property
+* Run your tests with `npm test`
